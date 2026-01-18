@@ -106,7 +106,7 @@ const products = [
   {
     id: "job-signature",
     name: "Signature Series",
-    description: "Our most popular collection, representing the essence of Joba Coffee. Perfectly balanced for everyday enjoyment.",
+    description: "Our most popular collection, representing the essence of Zeytun Restaurant. Perfectly balanced for everyday enjoyment.",
     image: "/images/joba images/img14.jpeg",
     roast: "Medium",
     origin: "Signature Blend",

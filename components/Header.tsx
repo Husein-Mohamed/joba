@@ -8,9 +8,9 @@ export default function Header() {
       <div className="site-container panel flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 relative">
-            <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Joba Coffee" fill className="object-contain" />
+            <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Zeytun Restaurant" fill className="object-contain" />
           </div>
-          <div className="hidden sm:block text-lg font-semibold">Joba Coffee</div>
+          <div className="hidden sm:block text-lg font-semibold">Zeytun Restaurant</div>
         </Link>
 
         <nav className="flex-1">

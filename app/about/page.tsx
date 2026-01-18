@@ -14,7 +14,7 @@ export default function About() {
               <div className="relative h-16 w-48 md:h-20 md:w-56">
                 <Image 
                   src="/images/joba images/logos/joba coffee branding.png" 
-                  alt="Joba Coffee Logo" 
+                  alt="Zeytun Restaurant Logo" 
                   fill
                   className="object-contain filter brightness-0 invert"
                   priority
@@ -26,7 +26,7 @@ export default function About() {
               <span className="text-sm font-semibold">Our Story</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About Joba Coffee
+              About Zeytun Restaurant
             </h1>
             <p className="text-xl text-[#d7ccc8] max-w-3xl mx-auto">
               Where passion for coffee meets dedication to community and sustainability
@@ -56,7 +56,7 @@ export default function About() {
                 Crafting Community Through Coffee
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                At Joba Coffee we believe a great cup can brighten a day and build
+                At Zeytun Restaurant we believe a great cup can brighten a day and build
                 community. We partner with farmers who share our commitment to quality
                 and pay fair prices for carefully processed lots.
               </p>
@@ -90,7 +90,7 @@ export default function About() {
               </div>
               <h4 className="text-xl font-semibold text-gray-900 mb-3">The Beginning</h4>
               <p className="text-gray-600 leading-relaxed">
-                Joba started as a neighborhood cafe where friends gathered for good
+                Zeytun Restaurant started as a neighborhood cafe where friends gathered for good
                 conversation and exceptional coffee. What began as a passion project
                 quickly became a beloved community hub.
               </p>

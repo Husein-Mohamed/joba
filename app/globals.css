@@ -48,12 +48,12 @@
 
 /* Clean, simple background */
 body {
-  background: #efebe9;
+  background-color: #efebe9;
   color: #1f2937;
   min-height: 100vh;
 }
 
-/* Joba Coffee Brand Colors - Chocolate Theme */
+/* Zeytun Restaurant Brand Colors - Chocolate Theme */
 :root {
   --chocolate-dark: #3e2723;
   --chocolate-medium: #5d4037;

@@ -32,29 +32,32 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center overflow-hidden" aria-label="Hero">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <Image 
-          src="/images/joba images/bg-1.jpeg" 
-          alt="Coffee background" 
-          fill
-          className="object-cover animate-zoom-in"
-          priority
-          quality={90}
+      {/* Background Pattern with Overlay - Same as Footer */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#3e2723] via-[#4e342e] to-[#3e2723]">
+        {/* Background pattern overlay */}
+        <div 
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: 'url("/images/joba images/patterns-02-.png")',
+            backgroundRepeat: 'repeat',
+            backgroundAttachment: 'fixed'
+          }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#3e2723]/95 via-[#5d4037]/90 to-[#4e342e]/85 animate-fade-in" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left Content */}
-          <div className="text-white space-y-6 sm:space-y-8 animate-fadeIn">
+          {/* Left Content with backdrop for better readability */}
+          <div className="relative space-y-6 sm:space-y-8 animate-fadeIn">
+            {/* Subtle backdrop blur for text area */}
+            <div className="absolute -inset-4 bg-[#3e2723]/20 backdrop-blur-sm rounded-2xl -z-10 lg:hidden" />
+            <div className="text-white space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-slide-up">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-slide-up text-white drop-shadow-2xl">
                 Discover The Art Of
-                <span className="block text-[#d7ccc8] mt-2 animate-slide-up-delay">Perfect Coffee</span>
+                <span className="block text-[#d7ccc8] mt-2 animate-slide-up-delay drop-shadow-xl">Perfect Coffee</span>
               </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-[#efebe9] leading-relaxed max-w-xl animate-fade-in-delay">
+              <p className="text-lg sm:text-xl md:text-2xl text-[#efebe9] leading-relaxed max-w-xl animate-fade-in-delay drop-shadow-lg">
                 Experience rich, bold flavors crafted to awaken your senses. We roast
                 small batches, partner directly with farmers, and prepare every cup
                 with care — from bean to brew.
@@ -78,19 +81,20 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-6 sm:pt-8 border-t border-white/20 animate-fade-in-delay-3">
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-6 sm:pt-8 border-t border-white/30 animate-fade-in-delay-3">
               <div className="transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl sm:text-4xl font-bold text-[#d7ccc8]">{counts.items}+</div>
-                <div className="text-[#a1887f] text-xs sm:text-sm mt-1">Coffee Varieties</div>
+                <div className="text-3xl sm:text-4xl font-bold text-white drop-shadow-lg">{counts.items}+</div>
+                <div className="text-[#d7ccc8] text-xs sm:text-sm mt-1 font-medium">Coffee Varieties</div>
               </div>
               <div className="transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl sm:text-4xl font-bold text-[#d7ccc8]">{counts.orders}+</div>
-                <div className="text-[#a1887f] text-xs sm:text-sm mt-1">Daily Orders</div>
+                <div className="text-3xl sm:text-4xl font-bold text-white drop-shadow-lg">{counts.orders}+</div>
+                <div className="text-[#d7ccc8] text-xs sm:text-sm mt-1 font-medium">Daily Orders</div>
               </div>
               <div className="transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl sm:text-4xl font-bold text-[#d7ccc8]">{counts.people.toLocaleString()}+</div>
-                <div className="text-[#a1887f] text-xs sm:text-sm mt-1">Happy Customers</div>
+                <div className="text-3xl sm:text-4xl font-bold text-white drop-shadow-lg">{counts.people.toLocaleString()}+</div>
+                <div className="text-[#d7ccc8] text-xs sm:text-sm mt-1 font-medium">Happy Customers</div>
               </div>
+            </div>
             </div>
           </div>
 

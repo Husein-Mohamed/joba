@@ -7,7 +7,7 @@ import Footer from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Joba Coffee | Premium Chocolate Roast Coffee",
+  title: "Zeytun Restaurant | Premium Chocolate Roast Coffee",
   description: "Experience rich chocolate-forward coffee roasts. Small-batch roasted with deep cocoa notes, bright acidity, and velvety finishes.",
   keywords: ["coffee", "chocolate roast", "premium coffee", "artisan coffee", "single origin"],
   icons: {

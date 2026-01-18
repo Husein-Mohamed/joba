@@ -48,7 +48,7 @@ export default function Contact() {
               <div className="relative h-16 w-48 md:h-20 md:w-56">
                 <Image 
                   src="/images/joba images/logos/joba coffee branding.png" 
-                  alt="Joba Coffee Logo" 
+                  alt="Zeytun Restaurant Logo" 
                   fill
                   className="object-contain filter brightness-0 invert"
                   priority
@@ -300,7 +300,7 @@ export default function Contact() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-full"
-                title="Joba Coffee Location"
+                title="Zeytun Restaurant Location"
               />
             </div>
             {/* Decorative corner accent */}

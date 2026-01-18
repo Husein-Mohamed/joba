@@ -13,7 +13,7 @@ export default function ProductsShowcase() {
             <div className="relative h-16 w-48 md:h-20 md:w-56">
               <Image 
                 src="/images/joba images/logos/joba coffee branding-01.jpg" 
-                alt="Joba Coffee Logo" 
+                alt="Zeytun Restaurant Logo" 
                 fill
                 className="object-contain"
                 priority

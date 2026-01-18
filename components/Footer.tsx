@@ -9,15 +9,15 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 relative">
-                <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Joba logo" fill className="object-contain" />
+                <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Zeytun Restaurant logo" fill className="object-contain" />
               </div>
               <div>
-                <div className="text-lg font-semibold">Joba Coffee</div>
+                <div className="text-lg font-semibold">Zeytun Restaurant</div>
                 <div className="muted text-sm mt-1">Small-batch roasted coffee. Community first.</div>
               </div>
             </div>
 
-            <p className="mt-4 text-xs muted">© {new Date().getFullYear()} Joba Coffee</p>
+            <p className="mt-4 text-xs muted">© {new Date().getFullYear()} Zeytun Restaurant</p>
           </div>
 
           <div>

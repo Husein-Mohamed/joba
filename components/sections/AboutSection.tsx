@@ -6,7 +6,7 @@ export default function AboutSection() {
   return (
     <section 
       className="relative py-24 overflow-hidden bg-gradient-to-b from-white to-[#efebe9] animate-fadeIn"
-      aria-label="About Joba Coffee Roastery"
+      aria-label="About Zeytun Restaurant Roastery"
     >
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -59,7 +59,7 @@ export default function AboutSection() {
           <div className="space-y-8 animate-slideInRight">
             <div>
               <p className="text-lg text-[#5d4037] mb-6 leading-relaxed">
-                At Joba Coffee, we&apos;re passionate about bringing exceptional coffee 
+                At Zeytun Restaurant, we&apos;re passionate about bringing exceptional coffee 
                 from farm to cup. Founded in 2015, we&apos;ve built relationships with 
                 sustainable farms worldwide to source the finest single-origin beans.
               </p>

@@ -31,6 +31,14 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-b from-[#3e2723] via-[#4e342e] to-[#3e2723] text-[#efebe9] relative overflow-hidden">
       {/* Background pattern overlay */}
+      <div 
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: 'url("/images/joba images/patterns-02-.png")',
+          backgroundRepeat: 'repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      />
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-[#795548] rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#8d6e63] rounded-full blur-3xl" />
@@ -43,7 +51,7 @@ export default function Footer() {
               <div className="relative h-24 w-auto min-w-[320px]">
                 <Image 
                   src="/images/joba images/logos/joba coffee branding-02.png" 
-                  alt="Joba Coffee Logo" 
+                  alt="Zeytun Restaurant Logo" 
                   fill
                   className="object-contain object-left filter brightness-0 invert"
                   sizes="320px"
@@ -149,7 +157,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-[#8d6e63]/30">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-[#d7ccc8] text-sm">
-              © {new Date().getFullYear()} Joba Coffee. All rights reserved.
+              © {new Date().getFullYear()} Zeytun Restaurant. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-[#d7ccc8] hover:text-[#efebe9] text-sm transition-colors">
