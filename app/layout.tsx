@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+// Trigger Vercel deployment
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
