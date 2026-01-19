@@ -51,7 +51,7 @@ export default function Footer() {
               <div className="relative h-24 w-auto min-w-[320px]">
                 <Image 
                   src="/images/joba images/logos/joba coffee branding-02.png" 
-                  alt="Zeytun Restaurant Logo" 
+                  alt="Joba Coffee Logo" 
                   fill
                   className="object-contain object-left filter brightness-0 invert"
                   sizes="320px"
@@ -79,7 +79,7 @@ export default function Footer() {
           {/* Links columns */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-lg font-semibold mb-4 text-[#a1887f]">{category}</h3>
+              <h3 className="text-lg font-semibold mb-4 text-[#ffd54f]">{category}</h3>
               <ul className="space-y-3">
                 {links.map((link) => (
                   <li key={link.name}>
@@ -157,7 +157,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-[#8d6e63]/30">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-[#d7ccc8] text-sm">
-              © {new Date().getFullYear()} Zeytun Restaurant. All rights reserved.
+              © {new Date().getFullYear()} Joba Coffee. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-[#d7ccc8] hover:text-[#efebe9] text-sm transition-colors">

@@ -6,15 +6,15 @@ const testimonials = [
     id: 1,
     name: "Sada",
     role: "Coffee Shop & Restaurant",
-    quote: "Zeytun Restaurant has been our trusted supplier for over 3 years. Their premium beans elevate both our coffee menu and restaurant offerings. Our customers consistently praise the quality. Exceptional service and unmatched flavor profiles.",
+    quote: "Joba Coffee has been our trusted supplier for over 3 years. Their premium beans elevate both our coffee menu and restaurant offerings. Our customers consistently praise the quality. Exceptional service and unmatched flavor profiles.",
     avatar: "/images/joba images/img8.jpeg",
     rating: 5,
   },
   {
     id: 2,
     name: "Zeytun Restaurant",
-    role: "Coffee Shop",
-    quote: "The consistency and quality of Zeytun Restaurant is outstanding. Our customers love the rich, bold flavors. It's become the signature of our coffee shop. Highly recommended for any coffee establishment.",
+    role: "Restaurant & Hotel",
+    quote: "The consistency and quality of Joba Coffee is outstanding. Our customers love the rich, bold flavors. It's become the signature of our coffee shop. Highly recommended for any coffee establishment.",
     avatar: "/images/joba images/img6.jpeg",
     rating: 5,
   },
@@ -22,7 +22,7 @@ const testimonials = [
     id: 3,
     name: "Decala",
     role: "Hotel",
-    quote: "Partnering with Zeytun Restaurant was one of the best decisions we made. Their beans are always fresh, the variety is impressive, and the support team is responsive. Our hotel guests appreciate the premium coffee experience in our lobby and restaurant.",
+    quote: "Partnering with Joba Coffee was one of the best decisions we made. Their beans are always fresh, the variety is impressive, and the support team is responsive. Our hotel guests appreciate the premium coffee experience in our lobby and restaurant.",
     avatar: "/images/joba images/img9.jpeg",
     rating: 5,
   },
@@ -30,7 +30,7 @@ const testimonials = [
     id: 4,
     name: "Mado",
     role: "Coffee Shop & Restaurant",
-    quote: "Zeytun Restaurant delivers excellence consistently. Their premium roasts have enhanced both our coffee service and restaurant beverage program significantly. Professional service, reliable delivery, and exceptional quality that our customers appreciate.",
+    quote: "Joba Coffee delivers excellence consistently. Their premium roasts have enhanced both our coffee service and restaurant beverage program significantly. Professional service, reliable delivery, and exceptional quality that our customers appreciate.",
     avatar: "/images/joba images/img14.jpeg",
     rating: 5,
   },
@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
             <span className="text-[#795548]">Leading Establishments</span>
           </h2>
           <p className="text-xl text-[#6d4c41] max-w-2xl mx-auto">
-            Premium coffee shops and restaurants that trust Zeytun Restaurant for their daily operations
+            Premium coffee shops and restaurants that trust Joba Coffee for their daily operations
           </p>
         </div>
 

@@ -53,7 +53,7 @@ export default function Hero() {
             <div className="absolute -inset-4 bg-[#3e2723]/20 backdrop-blur-sm rounded-2xl -z-10 lg:hidden" />
             <div className="text-white space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-slide-up text-white drop-shadow-2xl">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-slide-up drop-shadow-2xl text-[#ffd54f]">
                 Discover The Art Of
                 <span className="block text-[#d7ccc8] mt-2 animate-slide-up-delay drop-shadow-xl">Perfect Coffee</span>
               </h1>

@@ -49,11 +49,11 @@
 /* Clean, simple background */
 body {
   background-color: #efebe9;
-  color: #1f2937;
+  color: var(--brand-color);
   min-height: 100vh;
 }
 
-/* Zeytun Restaurant Brand Colors - Chocolate Theme */
+/* Joba Coffee Brand Colors - Chocolate Theme */
 :root {
   --chocolate-dark: #3e2723;
   --chocolate-medium: #5d4037;
@@ -64,12 +64,35 @@ body {
   --cream: #efebe9;
   --coffee-brown: #6d4c41;
   --mocha: #a1887f;
+  /* Bright, warm accent color for text on dark backgrounds */
+  --brand-color: #ffd54f;
 }
 
 /* Typography */
 h1, h2, h3 {
   font-family: Georgia, 'Times New Roman', serif;
-  color: #1f2937;
+  color: var(--brand-color);
+}
+
+/* Ensure hero heading overrides utility color classes when needed */
+.hero-heading {
+  color: var(--brand-color) !important;
+}
+
+/* Force brand color for header/navigation links and other inherited text-white contexts */
+.site-nav a,
+.site-container a,
+header a,
+nav a {
+  color: var(--brand-color) !important;
+}
+
+/* Also ensure when a parent applies .text-white, our headings and emphasized text use the brand color */
+.text-white .hero-heading,
+.text-white h1,
+.text-white h2,
+.text-white h3 {
+  color: var(--brand-color) !important;
 }
 
 /* Simple utility classes */
@@ -172,7 +195,7 @@ html {
 /* Selection color */
 ::selection {
   background-color: #fbbf24;
-  color: #1f2937;
+  color: var(--brand-color);
 }
 
 /* ============================================

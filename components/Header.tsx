@@ -8,13 +8,13 @@ export default function Header() {
       <div className="site-container panel flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 relative">
-            <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Zeytun Restaurant" fill className="object-contain" />
+            <Image src="/images/joba images/WhatsApp Image 2025-12-28 at 12.24.42 PM.jpeg" alt="Joba" fill className="object-contain" />
           </div>
-          <div className="hidden sm:block text-lg font-semibold">Zeytun Restaurant</div>
+          <div className="hidden sm:block text-lg font-semibold">Joba</div>
         </Link>
 
         <nav className="flex-1">
-          <ul className="hidden md:flex items-center justify-center gap-8 text-sm font-medium">
+          <ul className="hidden md:flex items-center justify-center gap-8 text-sm font-medium site-nav">
             <li>
               <Link href="/">Home</Link>
             </li>

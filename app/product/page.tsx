@@ -1,7 +1,7 @@
 import ProductsShowcase from "../../components/sections/ProductsShowcase";
 
 export const metadata = {
-  title: "Products - Zeytun Restaurant",
+  title: "Products - Joba Coffee",
   description: "Explore our complete range of premium roasted coffee products.",
 };
 

@@ -35,8 +35,8 @@ export default function Header() {
           <Link href="/" className="flex items-center group animate-fadeIn hover:opacity-90 transition-all duration-300 hover:scale-105 active:scale-95">
             <div className="relative h-12 w-auto min-w-[180px] sm:h-16 sm:min-w-[220px] md:h-20 md:min-w-[260px] lg:h-24 lg:min-w-[320px] transition-all duration-300">
               <Image 
-                src="/images/joba images/logos/joba coffee branding-06.png" 
-                alt="Zeytun Restaurant Logo" 
+                src="/images/joba images/logos/joba coffee branding-07.png" 
+                alt="Joba Coffee Logo" 
                 fill
                 className="object-contain object-left filter brightness-0 invert drop-shadow-lg"
                 priority
